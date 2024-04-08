@@ -11,3 +11,15 @@ for i in range(n,n1+1):
         break
     else:
       print(i,"")
+
+
+
+  #
+  a="Git and it's functions are located in the file"
+  b={} 
+  for i in range(a):
+    if i in b.keys():
+      b[i]=+1 
+    else:
+      b[i]=1
+print(b)
